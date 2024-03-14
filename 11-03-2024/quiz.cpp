@@ -14,12 +14,12 @@ int main() {
 	cout << "Sua resposta: ";
 	cin >> resposta;
 	
-	if (resposta == "a") {
+	if (resposta == "b") {
 		cout << correto << "\n";
 		resultado += 1;
 	}
 	
-	if (resposta != "a") {
+	if (resposta != "b") {
 		cout << errado << "\n";
 	}
 	
@@ -35,7 +35,7 @@ int main() {
 		cout << errado << "\n";
 	}
 	
-	cout << "Quem escreveu a peça 'Romeu e Julieta'? \n a)William Shakespeare \n b)Charles Dickens \n c)Jane Austen \n d)F. Scott Fitzgerald \n e) Mark Twain \n";
+	cout << "Quem escreveu a peï¿½a 'Romeu e Julieta'? \n a)William Shakespeare \n b)Charles Dickens \n c)Jane Austen \n d)F. Scott Fitzgerald \n e) Mark Twain \n";
 	cout << "Sua resposta: ";
 	cin >> resposta;
 	if (resposta == "a") {
